@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgba(134, 180, 194, 0.452);
 }
@@ -58,7 +61,6 @@ body{
 .menu li, a{
     list-style: none;
     text-decoration: none;
-    font-size: 18px;
     color: black;
 }
 .active{
@@ -87,8 +89,8 @@ body{
     background-color: white;
 }
 .item-menu:hover{
-    color: white;
     background-image: linear-gradient(45deg,rgb(8, 8, 8),purple);
+    color: white;
 }
 .data{
     background-color: transparent;
@@ -191,7 +193,7 @@ body{
         position: absolute;
         width: 200px;
         margin-top: -120px;
-        margin-left: 120px;
+        margin-left: 115px;
         z-index: 0;
         filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
     }
@@ -204,8 +206,10 @@ body{
         background-attachment: fixed;
     }
     .menu{
+        margin: auto;
         position: fixed;
         bottom: 0;
+        margin-bottom: 10px;
         z-index: 1;
         background-image: linear-gradient(to bottom, purple,black);
         padding: 20px;
@@ -216,6 +220,7 @@ body{
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349);
     }
     .menu ul{
+        margin: auto;
         box-sizing: border-box;
         display: flex;
         gap: 10px;
