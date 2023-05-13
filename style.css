@@ -148,6 +148,7 @@ body{
     text-decoration: none;
 }
 .portfolio .head{
+    width: 100%;
     border-left: 10px  solid orangered;
     padding: 8px 5px 8px 10px;
     color: white;
@@ -193,7 +194,7 @@ body{
         position: absolute;
         width: 200px;
         margin-top: -120px;
-        margin-left: 115px;
+        margin-left: 100px;
         z-index: 0;
         filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
     }
@@ -261,6 +262,7 @@ body{
     .item-portfolio{
         overflow: auto;
         white-space: nowrap;
+        
     }
     .list{
         display: inline-block;
@@ -296,6 +298,7 @@ body{
     } */
     .footer{
         height: 150px;
+        width: 100%;
         margin-top: -50px;
     }
     .contact{
