@@ -96,7 +96,7 @@ body{
 .data{
     background-color: transparent;
     text-align: left;
-    border-left: 5px solid orangered;
+    border-left: 5px solid purple;
     border-radius: 0 20px 20px 0;
 }
 .sub-menu{
@@ -144,13 +144,13 @@ body{
     padding: 8px;
     border-radius: 10px;
     width:100% ;
-    background-color:orangered;
+    background-color:purple;
     color: white;
     text-decoration: none;
 }
 .portfolio .head{
     width: 100%;
-    border-left: 10px  solid orangered;
+    border-left: 10px  solid purple;
     padding: 8px 5px 8px 10px;
     color: white;
     background-image: linear-gradient(to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.486),rgba(255, 255, 255, 0));
@@ -169,7 +169,7 @@ body{
     box-shadow: 0px 0px 10px black;
 }
  .callme {
-    background-color: orangered;
+    background-color: purple;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
@@ -198,16 +198,16 @@ body{
         margin-left: 100px;
         z-index: 0;
         filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
-        border-bottom: 30px solid rgb(207, 207, 207);
+        border-bottom: 30px solid rgba(3, 188, 212, 0.685);
         border-radius: 50%;
         box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.39);
         animation: bounce2 2s ease infinite;
     }
     @keyframes bounce2 {
-        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-        40% {transform: translateY(-30px);}
-        60% {transform: translateY(-15px);}
-    }
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
     .panel{
         padding-top: 100px;
         background-image: url("img/bg_login.jpg");
@@ -222,13 +222,13 @@ body{
         bottom: 0;
         margin-bottom: 10px;
         z-index: 1;
-        background-image: linear-gradient(to bottom, purple,black);
+        background-image: linear-gradient(45deg, purple,rgba(3, 188, 212, 0.685));
         padding: 20px;
         border-radius: 10px;
         display: flex;
         justify-content: center;
         margin-top: -50px;
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     }
     .menu ul{
         margin: auto;
@@ -324,7 +324,7 @@ body{
         font-size: 14px;
     }
     .callme {
-        background-color: orangered;
+        background-color: purple;
         text-decoration: none;
         border-radius: 10px;
     }
