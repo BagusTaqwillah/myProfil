@@ -20,7 +20,7 @@ body{
     margin-left: 450px;
     z-index: 0;
     filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
-    border-radius: 30%;
+
 }
 .panel{
     padding-top: 100px;
@@ -198,6 +198,15 @@ body{
         margin-left: 100px;
         z-index: 0;
         filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
+        border-bottom: 30px solid rgb(207, 207, 207);
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.39);
+        animation: bounce2 2s ease infinite;
+    }
+    @keyframes bounce2 {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-30px);}
+        60% {transform: translateY(-15px);}
     }
     .panel{
         padding-top: 100px;
